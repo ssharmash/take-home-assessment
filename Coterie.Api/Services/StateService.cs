@@ -16,7 +16,7 @@ namespace Coterie.Api.Services
                 .GetData()
                 .FirstOrDefault(x => x.StateAbbreviation == abbrvOrFullName || x.StateFullName == abbrvOrFullName);
 
-            return state ?? throw new ArgumentException("Abbreviation or Full Name provided is null or not supported");
+            return state ?? throw new ArgumentException("State Abbreviation/Name provided is null or not supported");
         }
     }
 }

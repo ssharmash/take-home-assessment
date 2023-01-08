@@ -3,7 +3,6 @@ using Coterie.Api.Models.Requests;
 using Coterie.Api.Models.Responses;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
 
 namespace Coterie.Api.Controllers
 {
